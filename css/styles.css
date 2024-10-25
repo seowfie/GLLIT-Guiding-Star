@@ -1027,7 +1027,7 @@ tr:nth-child(5) th h1 { color: var(--pink); }
 
   #discography img {
     width: 50%; 
-    margin: 0 50px 0 110px; 
+    margin: 50px auto;
     display: block; 
   }
 
@@ -1037,6 +1037,7 @@ tr:nth-child(5) th h1 { color: var(--pink); }
   }
 
   #discography .button {
+    margin-top: 20px; 
     padding: 10px 20px; 
     font-size: 16px;
   }
