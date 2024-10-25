@@ -1025,21 +1025,35 @@ tr:nth-child(5) th h1 { color: var(--pink); }
     align-items: center; 
   }
 
+  #discography {
+    display: flex;              
+    flex-direction: column;      
+    align-items: center;         
+    padding-top: 100px;
+    background-color: var(--lavander);
+    padding-bottom: 100px;
+  }
+
   #discography img {
-    width: 50%; 
-    margin: 50px auto;
-    display: block; 
+      width: 50%; 
+      margin: 50px auto; 
+      display: block; 
+  }
+
+  #discography .button {
+      margin-top: 20px; 
+      padding: 10px 20px; 
+      font-size: 16px;
+      align-self: center; 
+  }
+
+  #discography .spotify-button {
+    top: 152px;
   }
 
   #discography iframe {
     width: 350px;
     height: 250px;
-  }
-
-  #discography .button {
-    margin-top: 20px; 
-    padding: 10px 20px; 
-    font-size: 16px;
   }
 
   /* Members section adjustments */
